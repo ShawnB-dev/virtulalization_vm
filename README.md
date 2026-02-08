@@ -147,7 +147,7 @@ Gateway: 192.168.10.2
 
 ## 5. Screenshots
 
-(You will add these as you go)
+[Cisco VLAN Topology](screenshots/cisco/ciscovlantopology.png)
 
 ## 6. Lessons Learned
 
