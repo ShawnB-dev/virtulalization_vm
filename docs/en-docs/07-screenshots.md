@@ -8,7 +8,8 @@ This document contains all screenshots used in the Packet Tracer portion of the 
 ## Cisco Packet Tracer Topology
 
 ### VLAN & Topology Overview
-![Cisco VLAN Topology Screenshot](/screenshots/ciscovlantopology.png)  
+![Cisco VLAN Topology Screenshot](/screenshots/ciscovlantopology.png) 
+
   *Overall VLAN and network topology layout in Packet Tracer.*
 
 ---
@@ -23,10 +24,12 @@ This document contains all screenshots used in the Packet Tracer portion of the 
 
 ### Router Interface Summary
 ![Router Brief Screenshot](/screenshots/ciscorouterbrief.png)
+
   *Output of `show ip interface brief`, displaying interface states and assigned IPs.*
 
 ### Router Running Configuration
 ![Running Configuration Screenshot](/screenshots/ciscoroutershowrunningconfig.png)  
+
   *Output of `show running-config`, showing router configuration details.*
 
 ---
@@ -40,10 +43,12 @@ This document contains all screenshots used in the Packet Tracer portion of the 
 
 ### Switch Interface Summary
 ![Switch Brief Screenshot](/screenshots/ciscoswitchbrief.png)  
+
   *Output of `show ip interface brief` on the switch.*
 
 ### Switch Interface Details
 ![Switch Interfaces Screenshot](/screenshots/ciscoswitchshowinterfaces.png)  
+
   *Output of `show interfaces`, displaying port-level details.*
 
 ---
@@ -52,6 +57,7 @@ This document contains all screenshots used in the Packet Tracer portion of the 
 
 ### Ping Test Between Hosts
 ![PC Ping Test Screenshot](/screenshots/ciscopcpingtest.png)
+
   *Successful ping test between Packet Tracer hosts, confirming LAN connectivity.*
 
 ---
