@@ -23,7 +23,10 @@ VirtualBox LAN         (Conceptual) Internal LAN (Packet Tracer Simulation)
 
 ## VirtualBox Environment Architecture
 ```markdown
-+------------------------------------------------+ |                VirtualBox Host                 | +------------------------------------------------+ |                         | pfSense VM                RHEL Server VM | Host-Only LAN (10.0.0.0/24)
++------------------------------------------------
+|                VirtualBox Host                 | +------------------------------------------------
+
++ |                         | pfSense VM                RHEL Server VM | Host-Only LAN (10.0.0.0/24)
 ```
 
 ### Components
