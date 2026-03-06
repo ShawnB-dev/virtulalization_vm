@@ -222,7 +222,8 @@ They include:
 
 A full reproduction guide is available in:
 ```markdown
-docs/08-how-to-reproduce.md docs/08-再現手順.md
+docs/08-how-to-reproduce.md 
+docs/08-再現手順.md
 ```
 
 
