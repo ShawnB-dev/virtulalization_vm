@@ -33,7 +33,9 @@ The goal is to build a reproducible, structured environment for practicing virtu
     | 10.0.0.x      |                       |   VMs         |
     +---------------+                       +---------------+
 
+```
 ### Packet Tracer LAN (Simulated)
+```markdown
 
                    +----------------------+
                    |      Router          |
