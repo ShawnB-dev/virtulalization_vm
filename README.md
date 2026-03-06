@@ -9,6 +9,52 @@ This lab demonstrates the creation of a small, multi‑environment network simul
 The goal is to build a reproducible, structured environment for practicing virtualization, firewalling, routing, and network design—mirroring the workflows used in real infrastructure and security teams.
 
 ---
+
+## Network Architecture / ネットワークアーキテクチャ (Conceptual)
+
+```markdown
+                     +----------------------+
+                     |      Internet        |
+                     +----------+-----------+
+                                |
+                                |
+                     +----------v-----------+
+                     |      pfSense         |
+                     |  Firewall / Router   |
+                     +----------+-----------+
+                                |
+                 VirtualBox LAN | 10.0.0.0/24
+                                |
+            +-------------------+-------------------+
+            |                                       |
+    +-------v-------+                       +-------v-------+
+    |   RHEL VM     |                       |  (Optional)   |
+    |  server01     |                       |  Additional   |
+    | 10.0.0.x      |                       |   VMs         |
+    +---------------+                       +---------------+
+
+### Packet Tracer LAN (Simulated)
+
+                   +----------------------+
+                   |      Router          |
+                   | 192.168.1.1/24       |
+                   +----------+-----------+
+                              |
+                              |
+                     +--------v--------+
+                     |     Switch      |
+                     +--------+--------+
+                              |
+                +-------------+-------------+
+                |                           |
+        +-------v-------+           +-------v-------+
+        |     PC1       |           |     PC2       |
+        | 192.168.1.10  |           | 192.168.1.11  |
+        +---------------+           +---------------+
+
+
+```
+
 ## Documentation / ドキュメント
 
 This project includes full English and Japanese documentation sets.
@@ -85,14 +131,28 @@ Internet → pfSense → Internal Network (simulated in Packet Tracer)
 
 ## Skills Demonstrated / 実証されたスキル
 
-- Virtual machine provisioning  
-- VirtualBox networking (NAT, Host‑Only, adapters)  
-- pfSense installation and interface assignment  
-- Basic firewall configuration  
-- Cisco routing and switching fundamentals  
-- Network segmentation and IP addressing  
-- Documentation and reproducibility  
-- Bilingual technical communication (EN/JP)  
+### Virtualization & Systems
+- VirtualBox VM provisioning  
+- Host-Only and NAT networking  
+- RHEL installation and configuration  
+- pfSense firewall deployment  
+
+### Networking
+- IP addressing and subnetting  
+- Routing fundamentals  
+- Switch configuration and VLANs  
+- LAN design and connectivity testing  
+
+### Security & Infrastructure
+- Firewall interface assignment  
+- Perimeter network design  
+- Segmentation concepts  
+
+### Documentation & Communication
+- Structured, reproducible lab documentation  
+- Bilingual English/Japanese technical writing  
+- Architecture diagrams and screenshot documentation  
+- Clear repo organization for recruiter review  
 
 ---
 
