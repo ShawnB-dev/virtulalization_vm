@@ -9,9 +9,33 @@ This lab demonstrates the creation of a small, multi‑environment network simul
 The goal is to build a reproducible, structured environment for practicing virtualization, firewalling, routing, and network design—mirroring the workflows used in real infrastructure and security teams.
 
 ---
+## Documentation / ドキュメント
 
-## Lab Overview
+This project includes full English and Japanese documentation sets.
 
+### English Documentation (docs/)
+- [01 Overview](docs/01-overview.md)
+- [02 Architecture](docs/02-architecture.md)
+- [03 VirtualBox Setup](docs/03-virtualbox-setup.md)
+- [04 pfSense Installation](docs/04-pfsense-installation.md)
+- [05 Packet Tracer Topology](docs/05-packet-tracer-topology.md)
+- [06 Network Integration](docs/06-network-integration.md)
+- [07 Screenshots](docs/07-screenshots.md)
+- [08 How to Reproduce](docs/08-how-to-reproduce.md)
+
+### 日本語ドキュメント（jp-docs/）
+- [01 概要](jp-docs/01-概要.md)
+- [02 アーキテクチャ](jp-docs/02-アーキテクチャ.md)
+- [03 VirtualBox セットアップ](jp-docs/03-VirtualBoxセットアップ.md)
+- [04 pfSense インストール](jp-docs/04-pfSenseインストール.md)
+- [05 Packet Tracer トポロジー](jp-docs/05-PacketTracerトポロジー.md)
+- [06 ネットワーク統合](jp-docs/06-ネットワーク統合.md)
+- [07 スクリーンショット](jp-docs/07-スクリーンショット.md)
+- [08 再現手順](jp-docs/08-再現手順.md)
+
+---
+
+## Lab Overview / ラボの概要
 This project contains two interconnected learning environments:
 
 ### Virtualization Environment (VirtualBox)
@@ -36,7 +60,7 @@ This dual‑environment approach demonstrates both virtualization skills and net
 
 ---
 
-## Architecture Summary
+## Architecture Summary / アーキテクチャの概要
 
 ### VirtualBox Layer
 
@@ -59,7 +83,7 @@ Internet → pfSense → Internal Network (simulated in Packet Tracer)
 
 ---
 
-## Skills Demonstrated
+## Skills Demonstrated / 実証されたスキル
 
 - Virtual machine provisioning  
 - VirtualBox networking (NAT, Host‑Only, adapters)  
@@ -72,7 +96,7 @@ Internet → pfSense → Internal Network (simulated in Packet Tracer)
 
 ---
 
-## Repository Structure
+## Repository Structure / リポジトリ構造
 ```markdown
 docs/ screenshots/ configs/ packet_tracer/ scripts
 ```
@@ -82,7 +106,7 @@ Documentation is organized into numbered sections (English + Japanese), followin
 
 ---
 
-## Documentation
+## Documentation / リポジトリ構造
 
 Full documentation is available in the `/docs` directory.
 
@@ -108,7 +132,7 @@ Full documentation is available in the `/docs` directory.
 
 ---
 
-## VM Definitions (VirtualBox)
+## VM Definitions / VMの定義 (VirtualBox)
 
 | VM Name | OS | CPU | RAM | Disk | Purpose |
 |--------|-----|------|------|-------|----------|
@@ -117,7 +141,7 @@ Full documentation is available in the `/docs` directory.
 
 ---
 
-## Packet Tracer Topology
+## Packet Tracer Topology /パケットトレーサートポロジ
 
 The Packet Tracer environment includes:
 
@@ -131,7 +155,7 @@ Screenshots and `.pkt` files are included in the repo.
 
 ---
 
-## Screenshots
+## Screenshots / スクリーンショット
 
 All screenshots are stored in:
 
@@ -149,7 +173,7 @@ They include:
 
 ---
 
-## How to Reproduce This Lab
+## How to Reproduce This Lab / このラボを再現する方法
 
 A full reproduction guide is available in:
 ```markdown
@@ -167,7 +191,7 @@ It includes:
 
 ---
 
-## Future Improvements
+## Future Improvements / 今後の改善点
 
 - Add automation scripts for VM creation  
 - Add VLAN segmentation in Packet Tracer  
