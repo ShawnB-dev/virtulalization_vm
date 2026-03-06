@@ -113,7 +113,14 @@ This dual‑environment approach demonstrates both virtualization skills and net
 ### VirtualBox Layer
 
 ```markdown
-+------------------------------------------------+ |                VirtualBox Host                 | +------------------------------------------------+ |                         | pfSense VM                Server VM(s) | Host-Only LAN (10.0.0.0/24)
+ +----------------------------------------------+| 
+ |              VirtualBox Host                 | 
+ +----------------------------------------------+
+                       |
+                  pfSense VM         
+                       |
+                       |
+          Server VM(s) | Host-Only LAN (10.0.0.0/24)
 ```
 
 ### Packet Tracer Layer
@@ -168,31 +175,7 @@ Documentation is organized into numbered sections (English + Japanese), followin
 
 ---
 
-## Documentation / リポジトリ構造
 
-Full documentation is available in the `/docs` directory.
-
-### English
-- 01 Overview  
-- 02 Architecture  
-- 03 VirtualBox Setup  
-- 04 pfSense Installation  
-- 05 Packet Tracer Topology  
-- 06 Network Integration  
-- 07 Screenshots  
-- 08 How to Reproduce  
-
-### 日本語
-- 01 概要  
-- 02 アーキテクチャ  
-- 03 VirtualBox セットアップ  
-- 04 pfSense インストール  
-- 05 Packet Tracer トポロジー  
-- 06 ネットワーク統合  
-- 07 スクリーンショット  
-- 08 再現手順  
-
----
 
 ## VM Definitions / VMの定義 (VirtualBox)
 
