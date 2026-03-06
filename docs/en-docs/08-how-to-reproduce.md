@@ -1,4 +1,8 @@
 # 08 How to Reproduce  
+
+**日本語版はこちら →** [08-再現手順.md](../jp-docs/08-再現手順.md)
+
+
 Step‑by‑Step Guide to Rebuilding the Lab
 
 This document provides a complete, reproducible workflow for recreating the VirtualBox and Packet Tracer environments used in this project. Follow these steps to rebuild the lab from scratch.

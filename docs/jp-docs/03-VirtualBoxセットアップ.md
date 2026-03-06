@@ -1,4 +1,8 @@
-# 03 VirtualBox セットアップ  
+# 03 VirtualBox セットアップ 
+
+**English version →** [03-virtualbox-setup.md](../docs/03-virtualbox-setup.md)
+
+
 仮想化環境の準備
 
 このセクションでは、VirtualBox のインストール、ホスト側の設定、そして本ラボで使用する仮想マシン（pfSense と RHEL サーバー）の作成手順について説明します。VirtualBox 環境は、企業ネットワークの境界（ファイアウォール）とサーバーレイヤーを再現する基盤となります。

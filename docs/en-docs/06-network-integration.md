@@ -1,4 +1,8 @@
 # 06 Network Integration  
+
+**日本語版はこちら →** [06-ネットワーク統合.md](../jp-docs/06-ネットワーク統合.md)
+
+
 How VirtualBox and Packet Tracer Form One Conceptual Project
 
 Although the VirtualBox and Packet Tracer environments are separate, they were built simultaneously to represent different layers of a single conceptual network. This document explains how the two labs relate and why this dual‑environment approach is valuable.

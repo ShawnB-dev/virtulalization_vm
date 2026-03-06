@@ -1,4 +1,7 @@
 # 05 Packet Tracer Topology  
+
+**日本語版はこちら →** [05-PacketTracerトポロジー.md](../jp-docs/05-PacketTracerトポロジー.md)
+
 Cisco Routing and Switching Simulation
 
 This section describes the Packet Tracer portion of the project. While the VirtualBox environment focuses on virtualization and firewalling, Packet Tracer provides a fast, visual environment for practicing Cisco routing, switching, and LAN design. Together, they form two halves of a single conceptual network project.

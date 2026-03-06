@@ -1,4 +1,8 @@
 # 08 再現手順  
+
+**English version →** [05-packettracer-topology.md](../docs/05-packettracer-topology.md)
+
+
 ラボ環境をゼロから再構築するための手順
 
 このドキュメントでは、本プロジェクトで使用した VirtualBox および Packet Tracer の環境を、最初から再現するための完全な手順をまとめています。ここに記載された手順に従うことで、誰でも同じラボ環境を構築できます。

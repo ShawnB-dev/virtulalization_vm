@@ -1,4 +1,8 @@
 # 02 Architecture  
+
+**日本語版はこちら →** [02-アーキテクチャ.md](../jp-docs/02-アーキテクチャ.md)
+
+
 VirtualBox + Packet Tracer Combined Project
 
 This project consists of two separate environments that together represent the major components of a small enterprise network. Although they do not directly connect, they conceptually form a complete network design:

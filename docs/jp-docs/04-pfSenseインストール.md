@@ -1,4 +1,8 @@
 # 04 pfSense インストール  
+
+**English version →** [04-pfsense-installation.md](../docs/04-pfsense-installation.md)
+
+
 VirtualBox におけるファイアウォール／ルーターの構築
 
 pfSense は本ラボの VirtualBox 環境におけるファイアウォール兼ルーターとして動作します。このドキュメントでは、pfSense のインストール、インターフェース設定、初期セットアップ手順を説明します。

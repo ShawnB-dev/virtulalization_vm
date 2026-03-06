@@ -1,4 +1,8 @@
 # 07 Screenshots  
+
+**日本語版はこちら →** [07-スクリーンショット.md](../jp-docs/07-スクリーンショット.md)
+
+
 Visual Reference for the Virtualization & Network Simulation Lab
 
 This document contains all screenshots used in the Packet Tracer portion of the project. Each image is stored in the `/screenshots` directory and referenced here with clear captions.

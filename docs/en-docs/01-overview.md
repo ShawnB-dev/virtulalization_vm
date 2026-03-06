@@ -1,4 +1,8 @@
 # 01 Overview  
+
+**日本語版はこちら →** [01-概要.md](../jp-docs/01-概要.md)
+
+
 Virtualization & Network Simulation Lab
 
 This project combines two separate but complementary environments, VirtualBox and Cisco Packet Tracer, to simulate the core components of a small enterprise network. Although the environments are not technically connected, they were built simultaneously to represent different layers of the same conceptual network design.

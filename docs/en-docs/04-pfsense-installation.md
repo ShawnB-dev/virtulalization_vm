@@ -1,4 +1,8 @@
 # 04 pfSense Installation  
+
+**日本語版はこちら →** [04-pfSenseインストール.md](../jp-docs/04-pfSenseインストール.md)
+
+
 Firewall and Router Setup in VirtualBox
 
 pfSense acts as the perimeter firewall in this lab’s VirtualBox environment. This document explains how to install pfSense, configure its interfaces, and prepare it for use with the RHEL server VM.

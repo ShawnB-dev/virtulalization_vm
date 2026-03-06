@@ -1,4 +1,7 @@
 # 03 VirtualBox Setup  
+
+**日本語版はこちら →** [03-VirtualBoxセットアップ.md](../jp-docs/03-VirtualBoxセットアップ.md)
+
 Preparing the Virtualization Environment
 
 This section explains how to install VirtualBox, configure the host system, and create the virtual machines used in this lab. The VirtualBox environment provides the foundation for pfSense and the RHEL server, simulating the perimeter and server layers of a small enterprise network.
